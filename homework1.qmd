@@ -1,0 +1,47 @@
+---
+title: "Midas touch -- what data science could help enable in a digitalized world"
+format: html
+editor: visual
+---
+
+# What being a data scientist is about
+
+Of course people would say data scientist is about analyze data, regardless of them being small or big in size, simple or complex in formatting. If you ask a PI in a biological lab, they may tell you they need a data scientist to analyze -omics data for them and generate beautiful pics for them to publish good paper and apply for better bigger grants. If you ask an executive in the auto insurance company, they would tell you data scientist would tell me the best premium for individual drives based their driving profile and past behavior. If you ask a boss in a big sport team they will tell you a data scientist could suggest good players for my next game and who would be a good addition for the next season. They are all right, and have one thing in common.
+
+## Data scientists extracts ideas from the data like finding gold in a raw gold stone.
+
+Nowadays, data scientists almost invariably need to deal with large data set which has enormous amount data. The size of one raw data from one proteomic experiment easily passed 5 GB and typically experiments usually have 10 - 100 raw files. The driver database may have hundreds of milions of driving records all across the country. The modern ball sports were played out and recorded in such a quantitative and digital way that every movement of players was documented resulting in tremendous size of raw file to deal with.
+
+Increasingly data scientists are faced with a huge vein of ores and they need to figure out 1) whether there is gold in the vein; 2) How to find the real gold from the ores and 3) how to process the raw gold stone and present it in a way to convince other people it is the real gold. With the help of data scientists to identify the gold in the stones, PIs in the biological labs could predict which gene/protein may have the real function leading to tumorigenesis or chemoresistance, the auto insurance company could maximize their profits by proposing the premium a certain driver could not refuse and the sports team management could make better decision the next seasons' picks. All these decisions could have positive financial impact on the organizations and increase efficiency of economics as a whole.
+
+# Data scientists vs statistician
+
+Although these two groups of people have some overlapping functions and toolboxes, data scientists are much more flexible than statistician. To me data scientists are more like exploratory data analysis. They collect data from existing databases, finding the right data set they need, polishing data and make visualizations and help better understanding of science and business. In contrast, statistician are more associated with formatted data set, with a more pre-set goal in mind and often they could assist researchers with experimental design, data acquisition and work with pre-defined data set. Statistician model the data set and make conclusions about the data.
+
+# Statistician for a living, data scientists for life
+
+For some reason, I have an impression statistician may have a better defined career path. Statisticians have been there for a longer time than data scientists and have more established roles that data scientists, at least in some industries. At the same time I am deeply attracted by the settings of data scientists. Data scientists are not limited by a defined data set and are mostly free to grab any available data for use. Good data scientists are like professional prospectors, they could turn average-looking stones into gold and I am looking to sharpen my skills to just do that.
+
+# Include a section with R code
+
+```{r}
+y <- density (iris $ Petal.Width)
+```
+
+Next we need to determine the *class*, *type* and *structure* of the object y
+
+```{r}
+class (y)
+typeof (y) 
+str (y)
+
+```
+
+Now we know the y shows the **density curve** of the petal width of iris, plot it.
+
+```{r}
+#| echo: false
+
+plot (y)
+
+```
